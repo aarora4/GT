@@ -1,0 +1,85 @@
+import pandas as pd
+import numpy as np
+import pickle
+import tqdm
+
+LDA_FILE = 'lda.pickle'
+RF_FILE = 'rf.pickle'
+
+RAW_recipes = pd.read_csv('RAW_recipes.csv')
+print(len(RAW_recipes))
+
+from collections import Counter
+import nltk
+from nltk.corpus import stopwords
+wordcounts = Counter()
+verbs = Counter()
+stop = set(stopwords.words('english'))
+symb = [',', '[', ']', '/', '\\', '(', ')', "'", ':']
+stop.update(symb)
+calories = []
+for i in tqdm.tqdm(range(len(RAW_recipes))):
+    words = RAW_recipes.loc[i, 'steps'].replace('[', ' ').replace(']', ' ').replace("'", " ").replace(':', ' ').split()
+    nut = RAW_recipes.loc[i, 'nutrition'].replace('[', ' ').replace(']', ' ').replace("'", " ").replace(':', ' ').split(',')
+    calories.append(float(nut[0]))
+    for w in words:
+        if w not in stop and not w.isnumeric():
+            wordcounts[w] += 1
+print(verbs.most_common()[:100])
+
+tokens = wordcounts.most_common()[:5000]
+token_set = set([tok[0] for tok in tokens])
+token2idx = {tokens[i][0]:i for i in range(len(tokens))}
+
+
+recipes = []
+keywords = []
+
+for i in range(len(RAW_recipes)):
+    words = RAW_recipes.loc[i, 'steps'].replace('[', ' [ ').replace(']', ' ] ').replace("'", " ' ").replace(':', ' : ').split()
+    for w in set(words):
+        if w in token_set:
+            recipes.append(i)
+            keywords.append(token2idx[w])
+print(len(recipes))
+
+from scipy.sparse import csr_matrix
+data = [1 for _ in recipes]
+X = csr_matrix((data, (recipes, keywords)), shape=(len(RAW_recipes), 5000))
+
+'''
+from sklearn.decomposition import LatentDirichletAllocation
+lda = LatentDirichletAllocation(n_components= 4, random_state=0, verbose = 2)
+lda.fit(X)
+transformed = lda.transform(X)
+
+with open(LDA_FILE, 'wb') as file:
+    pickle.dump(transformed, file)
+'''
+
+y = np.zeros((len(RAW_recipes), 3))
+y[RAW_recipes.loc[:, 'minutes'] < 30, 0] = 1
+y[(RAW_recipes.loc[:, 'minutes'] >= 30) & (RAW_recipes.loc[:, 'minutes'] < 120), 1] = 1
+y[RAW_recipes.loc[:, 'minutes'] >= 120, 2] = 1
+print(y.shape)
+
+from sklearn.ensemble import RandomForestClassifier
+regr = RandomForestClassifier(n_estimators = 100, max_depth=20, random_state=0, oob_score=True, verbose = 2, n_jobs = -1)
+regr.fit(X, y)
+
+with open(RF_FILE, 'wb') as file:
+    pickle.dump(regr, file)
+    
+
+
+
+ind = np.argpartition(regr.oob_decision_function_[0][:, 1], -20)[-20:]
+print([RAW_recipes.loc[i, 'name'] for i in ind])
+print(regr.oob_decision_function_[0][ind, :])
+ind = np.argpartition(regr.oob_decision_function_[1][:, 1], -20)[-20:]
+print('\n\n', [RAW_recipes.loc[i, 'name'] for i in ind])
+print(regr.oob_decision_function_[1][ind, :])
+ind = np.argpartition(regr.oob_decision_function_[2][:, 1], -20)[-20:]
+print('\n\n', [RAW_recipes.loc[i, 'name'] for i in ind])
+print(regr.oob_decision_function_[2][ind, :])
+print(regr.oob_score_)

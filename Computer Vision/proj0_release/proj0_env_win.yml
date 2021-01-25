@@ -1,0 +1,17 @@
+name: proj0
+channels:
+- defaults
+- pytorch
+- conda-forge
+dependencies:
+- jupyter
+- matplotlib
+- pip
+- pytest
+- python
+- pytorch-cpu
+- torchvision-cpu=0.2
+- pyyaml
+- opencv
+- pytest
+- Pillow

@@ -1,0 +1,306 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.7)  20 JAN 2021 14:08
+entering extended mode
+**"C:/Users/Karan Sarkar/Google Drive/GT/Deep Learning/ps0/ps0.tex"
+("C:/Users/Karan Sarkar/Google Drive/GT/Deep Learning/ps0/ps0.tex"
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\exam\exam.c
+ls"
+Document Class: exam 2017/12/17 Version 2.603 by Philip Hirschhorn
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen
+.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\articl
+e.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11
+.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@extrawidth=\skip43
+\@rightmargin=\skip44
+\@extrahead=\skip45
+\@extrafoot=\skip46
+\run@exhd=\skip47
+\fp@exhd=\skip48
+\run@exft=\skip49
+\fp@exft=\skip50
+\covrun@exhd=\skip51
+\covfp@exhd=\skip52
+\covrun@exft=\skip53
+\covfp@exft=\skip54
+\c@num@coverpages=\count88
+\c@latest@ques=\count89
+\c@ques@end=\count90
+\c@last@object=\count91
+\c@incmp@ques=\count92
+\c@next@ques=\count93
+\c@next@page=\count94
+\c@tmp@hlfcntr=\count95
+\c@ifpos@cntr=\count96
+\c@question=\count97
+\c@partno=\count98
+\c@subpart=\count99
+\c@subsubpart=\count100
+\c@choice=\count101
+\c@numpoints=\count102
+\c@numbonuspoints=\count103
+\c@pointsof@thisquestion=\count104
+\c@bonuspointsof@thisquestion=\count105
+\c@numquestions=\count106
+\c@numparts=\count107
+\c@numsubparts=\count108
+\c@numsubsubparts=\count109
+\c@Curr@Page=\count110
+\c@@pagepoints=\count111
+\c@@pagebonuspoints=\count112
+\c@pageof@pagepoints=\count113
+\c@pageof@pagebonuspoints=\count114
+\c@latest@points=\count115
+\c@latest@bonuspoints=\count116
+\pageinfo@commands=\toks14
+\temp@toks=\toks15
+\pagepoint@commands=\toks16
+\point@toks=\toks17
+\c@ques@object=\count117
+\marginpointssep=\skip55
+\rightpointsmargin=\skip56
+\choice@toks=\toks18
+\answerlinelength=\skip57
+\answerskip=\skip58
+\answerclearance=\skip59
+\fillinlinelength=\skip60
+\linefillheight=\skip61
+\linefillthickness=\skip62
+\dottedlinefillheight=\skip63
+\gridsize=\skip64
+\gridlinewidth=\skip65
+\minboxheight=\skip66
+\c@@iterator=\count118
+\@cellwidth=\skip67
+\c@tbl@points=\count119
+\c@tbl@bonuspoints=\count120
+\c@pq@index=\count121
+\c@pq@index@pts=\count122
+\c@pq@index@bpts=\count123
+\c@num@cols=\count124
+\c@num@rows=\count125
+\c@current@row=\count126
+\c@cols@done=\count127
+\exam@box=\box26
+\saved@totalleftmargin=\dimen103
+\@sollistdepth=\count128
+\exam@FrameRule=\dimen104
+\exam@FrameSep=\dimen105
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\fu
+llpage.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip68
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\ge
+ometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\ke
+yval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\
+ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\i
+fxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count129
+\Gm@cntv=\count130
+\c@Gm@tempcnt=\count131
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
+\Gm@dimlist=\toks20
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\ge
+ometry.cfg"))
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\relsize\rel
+size.sty"
+Package: relsize 2013/03/29 ver 4.1
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fonten
+c.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.
+def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inpute
+nc.sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1
+.def"
+File: latin1.def 2018/04/06 v1.3b Input encoding file
+))
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\bab
+el.sty"
+Package: babel 2018/09/26 3.24 The Babel package
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\swi
+tch.def"
+File: switch.def 2018/09/26 3.24 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblop
+ts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-engli
+sh\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\bab
+el.def"
+File: babel.def 2018/09/26 3.24 Babel common definitions
+\babel@savecnt=\count132
+\U@D=\dimen114
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txt
+babel.def")
+\bbl@dirlevel=\count133
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\ep
+sfig.sty"
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\gr
+aphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\gr
+aphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\tr
+ig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cf
+g\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-de
+f\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen115
+\Gin@req@width=\dimen116
+)
+\epsfxsize=\dimen117
+\epsfysize=\dimen118
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wra
+pfig.sty"
+\wrapoverhang=\dimen119
+\WF@size=\dimen120
+\c@WF@wrappedlines=\count134
+\WF@box=\box27
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subfig\subf
+ig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\cap
+tion.sty"
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\cap
+tion3.sty"
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@tempdima=\dimen124
+\caption@indent=\dimen125
+\caption@parindent=\dimen126
+\caption@hangindent=\dimen127
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count135
+\c@continuedfloat=\count136
+Package caption Info: wrapfig package is loaded.
+)
+\c@KVtest=\count137
+\sf@farskip=\skip69
+\sf@captopadj=\dimen128
+\sf@capskip=\skip70
+\sf@nearskip=\skip71
+\c@subfigure=\count138
+\c@subfigure@save=\count139
+\c@lofdepth=\count140
+\c@subtable=\count141
+\c@subtable@save=\count142
+\c@lotdepth=\count143
+\sf@top=\skip72
+\sf@bottom=\skip73
+)
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\fronten
+dlayer\tikz.sty"
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basicla
+yer\pgf.sty"
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utiliti
+es\pgfrcs.sty"
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utili
+ties\pgfutil-common.tex"
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utili
+ties\pgfutil-common-lists.tex"))
+("C:\Users\Karan Sarkar\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utili
+ties\pgfutil-latex.def"
+\pgfutil@abb=\box28

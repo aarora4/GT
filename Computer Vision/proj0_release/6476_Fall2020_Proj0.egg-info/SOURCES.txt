@@ -1,0 +1,7 @@
+README.md
+setup.py
+6476_Fall2020_Proj0.egg-info/PKG-INFO
+6476_Fall2020_Proj0.egg-info/SOURCES.txt
+6476_Fall2020_Proj0.egg-info/dependency_links.txt
+6476_Fall2020_Proj0.egg-info/requires.txt
+6476_Fall2020_Proj0.egg-info/top_level.txt

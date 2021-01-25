@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: 6476-Fall2020-Proj0
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://dellaert.github.io/20F-6476/index.html
+Author: Georgia Institute of Technology
+Author-email: sfaguile@gatech.edu
+License: MIT
+Description: # ps0-fall2020
+        problem set 0: CV Fall 2020
+Keywords: computer-vision
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >= 3.6

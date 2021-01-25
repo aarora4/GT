@@ -1,0 +1,146 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Multiple Choice Questions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{enumerate}[start]
+\item (1 point)
+We are machine learners with a slight gambling problem 
+(very different from gamblers with a machine learning problem!). 
+Our friend, Bob, is proposing the following payout on the roll of a dice:
+%
+\begin{align}
+\text{payout} = \left\{ {\begin{array}{*{20}{c}}
+{+\$2}&{x = 1}\\
+{-\$1/4}&{x \ne 1}
+\end{array}} \right.
+\end{align}
+%
+where $x \in \{ 1,2,3,4,5,6\} $ is the outcome of the roll, $(+)$ means payout to us and $(-)$ means payout to Bob. Is this a good bet i.e.\ are we expected to make money?
+
+\begin{oneparcheckboxes}
+\choice True
+\choice False
+\end{oneparcheckboxes}
+
+\item (1 point)
+$X$ is a continuous random variable with probability density function:
+%
+\begin{align}
+p(x) = \left\{ {\begin{array}{*{20}{c}}
+{\begin{array}{*{20}{c}}
+{3x^2/32}&{0 \le x \le 2}
+\end{array}}\\
+{\begin{array}{*{20}{c}}
+{3(6-x)/32}&{2 \le x \le 6}
+\end{array}}
+\end{array}} \right.
+\end{align}
+%
+Which of the following statements are true about the equation for the corresponding cumulative density function (CDF) $C(x)$?\\
+{[\emph{Hint:} Recall that CDF is defined as $C(x) = Pr(X \le x)$.]}\\
+\begin{checkboxes}
+	\choice $C(x) = x^3/32$  for   $0 \le x \le 2 $
+	\choice $C(x) = 9x/16 -3x^2/64 - 15/16$ for  $2 \le x \le 6$
+	\choice All of the above
+	\choice None of the above
+\end{checkboxes}
+
+\item (2 point) A random variable $x$ in standard normal distribution 
+has the following probability density:
+%
+\begin{align}
+p(x) = \frac{1}{{\sqrt {2\pi } }}{e^{ - \frac{{{x^2}}}{2}}}
+\end{align}
+%
+Evaluate the following integral:
+%
+\begin{align}
+\int\limits_{ - \infty }^\infty  {p(x)(a{x^2} + b{x} + c)dx}
+\end{align}
+
+[\emph{Hint:} We are not sadistic (okay, we're a little sadistic, but not for this question). This is not a calculus question.]\\
+
+\begin{oneparcheckboxes}
+	\choice a + b + c
+	\choice c
+	\choice a + c
+	\choice b + c
+\end{oneparcheckboxes}
+
+\vspace{2cm}
+
+	\item
+	(2 points)
+	Consider the following function of $\vec{x} = (x_1, x_2, x_3, x_4, x_5, x_6)$:
+	\beqn
+	f(\vec{x}) = \sigma\left( \log\left( 5 \left(
+	\max\{x_1, x_2\} \cdot \frac{x_3}{x_4} - (x_5 + x_6) \right)
+	\right) + \frac{1}{2} \right)
+	\eeqn
+	where $\sigma$ is the sigmoid function
+	\beqn
+	\sigma(x) = \frac{1}{1 + e^{-x}}
+	\eeqn
+	
+	Compute the gradient $\nabla_{\vec{x}} f(\cdot)$ and evaluate it at at $\hat{\vec{x}} = (-1, 3, 4, 5, -5, 7)$.
+	
+\begin{oneparcheckboxes}
+	\choice 
+	$\begin{bmatrix}
+		0 \\
+		0.031 \\
+		0.026 \\
+		-0.013 \\
+		-0.062 \\
+		-0.062 \\
+	\end{bmatrix}$
+ \choice $\begin{bmatrix}
+	0 \\
+	0.157 \\
+	0.131 \\
+	-0.065 \\
+	-0.314 \\
+	-0.314 \\
+	\end{bmatrix}$
+	\choice $\begin{bmatrix}
+	0 \\
+	0.357 \\
+	0.268 \\
+	-0.214 \\
+	-0.894 \\
+	-0.894 \\
+	\end{bmatrix}$
+	\choice $\begin{bmatrix}
+	0 \\
+	0.357 \\
+	0.268 \\
+	-0.214 \\
+	-0.447 \\
+	-0.447 \\
+	\end{bmatrix}$
+\end{oneparcheckboxes}
+
+\item (2 points) Which of the following functions are convex?
+\begin{checkboxes}
+\choice $\|\x\|_{\frac{1}{2}}$ 
+\choice $\min_{i=1}^k \vec{a}_{i}^T \x$ for $\x \in \mathbb{R}^n$, and a finite set of arbitrary vectors: $\{\vec{a}_1, \dots, \vec{a}_k\}$
+\choice $\log{(1+\exp(\wb^T \x))} $ for $\wb \in \mathbb{R}^d$
+\choice All of the above
+\end{checkboxes}
+
+
+\item (2 points) Suppose you want to predict an unknown value $Y \in \RF$, but you are only given
+a sequence of noisy observations $x_1, \dots, x_n$ of $Y$ with i.i.d.\ noise ($x_i = Y + \epsilon_i $). If we assume the noise is I.I.D.\ Gaussian ($\epsilon_i \sim N(0, \sigma^2)$), the maximum likelihood
+estimate ($\hat y$) for $Y$ can be given by: 
+
+
+\begin{checkboxes}
+	\choice A: $ \hat y = \argmin_y \sum_{i=1}^{n} (y - x_i)^2 $ 
+	\choice B: $ \hat y = \argmin_y \sum_{i=1}^{n} |y - x_i| $
+	\choice C: $\hat y = \frac{1}{n} \sum_{i=1}^{n} x_i $
+	\choice Both A \&  C
+	\choice Both B \& C
+	
+\end{checkboxes}
+\end{enumerate}
+\pagebreak
